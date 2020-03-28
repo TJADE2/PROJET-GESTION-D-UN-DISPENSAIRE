@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title>dispensaire</title>
+		
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body class="body">
+		
+		<div class="div">
+			<form id="formulaire" action= "init.php" method="post">
+				<fieldset class="champ">
+					<legend class="legend"> identification</legend><br />
+					<label for="nom">NOM :</label>
+					<input type="text" title="zone de saisi" name="nom" id="nom" value="" /> <br /><br />
+					<label for="fonction">FONCTION :</label>
+					<select name="fonction" id="fonction">
+						<option value="infirmier"> Infirmier </option>
+						<option value="pharmacien"> Pharmacien </option>
+						<option value="medecin"> Medecin </option>
+						<option value="administrateur"> Administrateur
+						</option>
+						<option value="laborantin"> Laborantin </option>
+					</select><br /> <br />
+					<label for="matricule">MOT DE PASSE :</label>
+					<input type="password" title="zone de saisi" name="pass" id="pass" value="" /> 
+					<br /><br />
+					<center>
+					<input type="submit" value="valider" title="cette action vous permet d'enregistrer les informations" />
+					<input type="reset" value="Annuler" title="cliquez et cela annule toutes vos actions" />
+					</center>
+				</fieldset><br /><br />
+			</form><br /><br />
+			
+			<a href="dispensaire.html" class="retour" title="cliquez pour retourner à la page d'acceuil">Retour à la page d'acceuil</a>
+	</body>
+
+</html>

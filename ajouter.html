@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title>dispensaire</title>
+		
+		<meta charset="utf-8" />
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body class="body">
+		
+		<div class="div">
+			<form id="formulaire" action= "ajouter_personnels.php" method="POST">
+				<fieldset class="champ">
+					<legend class="legend"> LE PERSONNELS </legend><br />
+					<label for="nom">NOM :</label>
+					<input type="text" title="zone de saisi" name="nom" id="nom" value="" /> <br /><br />
+					<label for="prenom">PRENOM :</label>
+					<input type="text" title="zone de saisi" name="prenom" id="prenom" value="" /> <br /><br />
+					<label for="matricule">MATRICULE :</label>
+					<input type="text" title="zone de saisi" name="matricule" id="matricule" value="" /> <br /><br />
+					<label for="fonction">FONCTION :</label>
+					<input type="text" title="zone de saisi" name="fonction" id="fonction" value="" /> <br /><br />
+					<center>
+					<input type="submit" value="Ajouter" title="cette action vous permet d'enregistrer les informations" />
+					<input type="reset" value="Annuler" title="cliquez et cela annule toutes vos actions" />
+					</center>
+				</fieldset><br /><br />
+			</form><br /><br />
+			
+			<a href="dispensaire.html" class="retour" title="cliquez pour retourner à la page d'acceuil">Retour à la page d'acceuil</a>
+	</body>
+
+</html>
